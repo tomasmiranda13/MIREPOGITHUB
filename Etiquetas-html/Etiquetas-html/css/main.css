@@ -1,0 +1,128 @@
+/*
+contenido: #79FF52
+fuente: #DDE84D
+general: #FFE261
+equivalentes: #E8AC4D
+homero: #FF9059
+*/
+* {
+  margin: ;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  width: 70%;
+  margin: 40px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;/**Valores alternativos, si no soporta la pprimer fuente tomara la siguiente**/
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+h1 {
+  font-size: 3rem;
+  text-shadow: 20px 20px 40px blue;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: navy;
+ 
+}
+a:active {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+}
+ol {
+  margin: 0 1.6em;
+}
+/***************
+IDENTIFICADORES
+****************/
+#contenido {
+ 
+}
+
+#general {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+#equivalentes {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+#homero {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+#origenes {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+#nacimiento {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+/************
+C L A S E S
+*************/
+.subrayado {
+  text-decoration: underline;
+}
+/**************
+COMPUESTOS
+***************/
+#origenes a {
+  background-color: white;
+  color: black;
+}
+img{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+footer{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+justify-content: center;
+}
+}
+
+
+
